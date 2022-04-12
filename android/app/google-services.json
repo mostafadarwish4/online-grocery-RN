@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1000572380976",
+    "project_id": "factos-57d1a",
+    "storage_bucket": "factos-57d1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000572380976:android:84c6d2de4ec17cc2c20af5",
+        "android_client_info": {
+          "package_name": "com.factos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000572380976-qfv567n9iigl62e2im47ds9spm5827m7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.factos",
+            "certificate_hash": "4e4810bea34845d69ecb45b7fcd948a1395b490d"
+          }
+        },
+        {
+          "client_id": "1000572380976-4ap5tqm0p1rd9lt1031p4j3r8b5ffp0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZoEfGVpsWskytEat9dA6GE2u7Xm98VM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000572380976-4ap5tqm0p1rd9lt1031p4j3r8b5ffp0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

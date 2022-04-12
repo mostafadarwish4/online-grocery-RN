@@ -1,0 +1,72 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+    move:{
+        height:120,
+        flexDirection:'row',
+        padding:5,
+        borderBottomWidth:1,
+        borderColor:'#d2d4d2',
+        width:'100%'
+    },
+    mid:{flex:.7},
+    textContainer:{flex:.5,margin:5},
+    title:{fontSize:18,fontWeight:'bold'},
+    pressable:{
+        
+        backgroundColor:'#dbdbdb',
+        borderWidth:1,
+        borderRadius:15,
+        borderColor:'white'
+    },
+    right:{
+        flex:.3,
+        margin:5,
+    },
+    fav:{
+        flex:.5,
+        alignItems:'flex-end'
+        
+    },
+    priceContainer:{
+        flex:.5,
+        alignItems:'flex-end',
+        justifyContent:'center'
+    },
+    price:{
+        fontSize:20,
+        fontWeight:'bold',
+        
+    },
+    descContainer:{
+        margin:10,
+        borderBottomColor:'#d2d4d2',
+        minHeight:50,
+        borderBottomWidth:1
+    },
+    review:{
+            width:'100%',
+            alignItems:'center',
+            flexDirection:'row',
+            borderBottomColor:'#d2d4d2',
+            minHeight:60,
+            borderBottomWidth:1
+            ,marginHorizontal:10
+    },
+    details:{
+        fontSize:16,
+        color:'grey',
+        marginVertical:10,
+        maxWidth:'90%'
+     },
+    btn:{position:'absolute',bottom:15,width:'100%'},
+    stars:{flexDirection:'row',flex:.5,alignItems:'flex-end'},
+    exist:{
+        fontSize:18,
+        fontWeight:'bold',
+        alignSelf:'center',
+        marginTop:20,
+        height:60,
+        color:'green'
+    }
+})
